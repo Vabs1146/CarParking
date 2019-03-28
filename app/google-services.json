@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1071006100776",
+    "firebase_url": "https://car-parking-218514.firebaseio.com",
+    "project_id": "car-parking-218514",
+    "storage_bucket": "car-parking-218514.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071006100776:android:a1fc34a393b063e8",
+        "android_client_info": {
+          "package_name": "com.vaibhav.lenovo.carparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071006100776-8vu4mgmlqsgj9l4u4sp2avshc76hh0fu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaibhav.lenovo.carparking",
+            "certificate_hash": "8b82f374393eeec59e802862db8c8fb964d66008"
+          }
+        },
+        {
+          "client_id": "1071006100776-mdvhsfn91plceckto6l7r7j4dm3fbr98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVnnekoJifKAj6_0tZXetgegEdUDK-UcY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071006100776-mdvhsfn91plceckto6l7r7j4dm3fbr98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

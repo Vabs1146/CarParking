@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".park_vehicle">
+    <TextView
+        android:id="@+id/tv_selected_slot"
+        android:layout_width="171dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="166dp"
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/tv_current_time_stamp"
+        android:layout_width="177dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tv_selected_slot"
+        android:layout_marginTop="83dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="90dp"
+        android:text="Date and Time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="177dp"
+        android:text="Current Slot No" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="52dp"
+        android:layout_marginEnd="136dp"
+        android:text="Next" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_centerVertical="true"
+        android:text="Reference id" />
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book_slot">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_slot_1"
+                android:layout_width="106dp"
+                android:layout_marginRight="32dp"
+                android:layout_height="68dp"
+                android:text="slot 1" />
+
+            <Button
+                android:id="@+id/btn_slot_2"
+                android:layout_width="106dp"
+                android:layout_marginLeft="32dp"
+                android:layout_height="68dp"
+                android:text="slot 2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_slot_3"
+                android:layout_width="106dp"
+                android:layout_marginRight="32dp"
+                android:layout_height="68dp"
+                android:text="slot 3" />
+
+            <Button
+                android:id="@+id/btn_slot_4"
+                android:layout_width="106dp"
+                android:layout_marginLeft="32dp"
+                android:layout_height="68dp"
+                android:text="slot 4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_slot_5"
+                android:layout_width="106dp"
+                android:layout_marginRight="32dp"
+                android:layout_height="68dp"
+                android:text="slot 5" />
+
+            <Button
+                android:layout_width="106dp"
+                android:layout_marginLeft="32dp"
+                android:layout_height="68dp"
+                android:text="slot 6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="106dp"
+                android:layout_marginRight="32dp"
+                android:layout_height="68dp"
+                android:text="slot 7" />
+
+            <Button
+                android:layout_width="106dp"
+                android:layout_marginLeft="32dp"
+                android:layout_height="68dp"
+                android:text="slot 8" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="106dp"
+                android:layout_marginRight="32dp"
+                android:layout_height="68dp"
+                android:text="slot 9" />
+
+            <Button
+                android:layout_width="106dp"
+                android:layout_marginLeft="32dp"
+                android:layout_height="68dp"
+                android:text="slot 10" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
