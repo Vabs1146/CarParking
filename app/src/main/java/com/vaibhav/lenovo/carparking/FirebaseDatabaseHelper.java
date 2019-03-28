@@ -16,6 +16,7 @@ public class FirebaseDatabaseHelper {
     private FirebaseDatabase mdatabase;
     private DatabaseReference mRefUser;
     private List<User>usersList=new ArrayList<>();
+    String Mobile;
 
     public FirebaseDatabaseHelper() {
         mdatabase=FirebaseDatabase.getInstance();
@@ -26,8 +27,13 @@ public class FirebaseDatabaseHelper {
         mRefUser.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                users ur=new users();
-                ur.setPassword(dataSnapshot.child());
+                for(DataSnapshot ds:dataSnapshot.getChildren()){
+                    users ur=new users();
+                    ur.setName(ds.child(Mobile).getValue(users.class).getName());
+                    ur.setPassword(ds.child(Mobile).getValue(users.class).getPassword());
+                    ur.setMobile(ds.child(Mobile).getValue(users.class).getMobile());
+                    ur.setEmail(ds.child(Mobile).getValue(users.class).getEmail());
+                }
             }
 
             @Override
